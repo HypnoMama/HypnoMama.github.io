@@ -8,6 +8,7 @@ body {
   /*height: 100%;*/
   color: #1B2228;
   color: #332c32;
+  padding: 1em;
 
   display: flex;
 }
@@ -56,17 +57,20 @@ h2 {
   /*background-color: #D0C9B9*/
   width: 75%;
   padding: 2em;
+  padding-top: 0;
 
 }
 
 .skills-header {
   display: flex;
+
 }
 
 hr {
   height: 10px;
   border: 0;
   box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  margin-top: 0;
 }
 
 
@@ -77,6 +81,7 @@ hr {
   /*border: 1px solid black;*/
   width: 10%;
   margin-bottom: 0;
+  margin-top: 2em;
 }
 
 
@@ -110,6 +115,10 @@ hr {
   width: 33%;
 }
 
+li {
+  font-size: 1.3em;
+}
+
 .projects {
   display: flex;
   /*border: 1px solid black;*/
@@ -117,7 +126,7 @@ hr {
 
 .fas {
   flex: 1;
-  font-size: 1em;
+  font-size: 1.5em;
 
 }
 
