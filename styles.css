@@ -1,0 +1,176 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  background-color: #d5d2c2;
+  background-color: #F9F7F7;
+  background-color: #ebe8eb;
+  /*margin: 0;*/
+  /*height: 100%;*/
+  color: #1B2228;
+  color: #332c32;
+
+  display: flex;
+}
+
+h2 {
+  color: #4c7c7e;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  height: 100%;
+}
+.sidebar{
+  flex: 0.3;
+  /*background-color: #636267;*/
+  /*background-color: #765464;*/
+  /*background-color: #A4A0B8;*/
+  /*background-color: #d8cbcb;*/
+  background-color: #d8d2cb:;
+  background-color: #beb3bc;
+  width: 25%;
+
+  padding: 3em;
+  margin-right: 3em;
+
+}
+
+.self {
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+/*
+.project-pics {
+  height: 25em;
+  width: 25em;
+  border-radius: none;
+}*/
+
+.main-content {
+  flex: 1;
+  /*background-color: #BCB4A7;
+  background-color: #d5d2c2;*/
+  /*background-color: #D0C9B9*/
+  width: 75%;
+}
+
+.skills-header {
+  display: flex;
+}
+
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+
+
+#skills-header {
+  flex: 1;
+  order:1;
+  /*border: 1px solid black;*/
+  width: 10%;
+}
+
+/*.border {
+  flex: 1;
+  order: 2;
+  width: 65%;
+  border: 1px solid white;
+}*/
+
+
+
+
+.skills {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+
+
+}
+
+#languages {
+  flex: 1;
+
+  padding-right: 0;
+  width: 25%;
+}
+
+#libraries {
+  flex: 1;
+  margin-right: -10;
+
+  width: 33%;
+
+}
+
+#databases {
+  flex: 1;
+  width: 33%;
+}
+
+.projects {
+  display: flex;
+  /*border: 1px solid black;*/
+}
+
+.fas {
+  flex: 1;
+  /*border: 2px solid purple;*/
+}
+
+.links {
+  flex: 1;
+  /*border: 1px solid white;*/
+  margin-left: 10%;
+  margin: 10% 10%;
+}
+
+#work {
+  display: flex;
+}
+
+.title-date {
+  flex: 1;
+  /*color: #27524D;*/
+  /*color: #547576;*/
+  color: #4c7c7e;
+}
+
+.work-description {
+  flex: 1;
+}
+
+
+
+
+
+/*
+.photo {
+  flex: 1;
+  background-color: #583f4b;
+}
+
+.columns {
+  flex: 1;
+  display: flex;
+}
+
+#skills-header {
+  display: flex;
+
+}
+
+
+
+@media (min-width: 900px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    }
+}
