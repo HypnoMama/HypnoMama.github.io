@@ -1,0 +1,61 @@
+img {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+  margin-top: 50px;
+  margin-left: 100px;
+  /*margin-right: 50px;*/
+
+}
+body {
+  margin:0;
+  font-family: 'Raleway', sans-serif;
+  color: #1f2020;
+}
+
+.photo {
+  background-color: #583f4b;
+}
+
+.contact {
+  /*color: #5e6262;*/
+  color: #d5d2c2;
+  font-weight: bold;
+  /*text-align: center;*/
+  display: inline-block;
+  margin: 10px;
+
+}
+
+.tagline {
+  color: #89B3A1;
+
+}
+
+.summary {
+  background-color: #d5d2c2;
+  margin-top: 0;
+  padding: 50px 50px;
+  border-top: 10px solid #6F614E;
+  color: #1f2020;
+}
+
+.fab {
+  font-size: 4em;
+  margin: 5px;
+  color: blue;
+}
+
+#ruby {
+  height: 50px;
+  width: 50px;
+}
+
+.skill {
+  display: inline-block;
+  color: #1f2020;
+  background-color: #D5D2C2;
+}
