@@ -76,15 +76,8 @@ hr {
   order:1;
   /*border: 1px solid black;*/
   width: 10%;
+  margin-bottom: 0;
 }
-
-/*.border {
-  flex: 1;
-  order: 2;
-  width: 65%;
-  border: 1px solid white;
-}*/
-
 
 
 
@@ -92,7 +85,7 @@ hr {
   display: flex;
   width: 75%;
   margin: 0 auto;
-  padding: 3em;
+  /*padding: 3em;*/
 
 
 }
@@ -124,12 +117,21 @@ hr {
 
 .fas {
   flex: 1;
-  /*border: 2px solid purple;*/
+  font-size: 1em;
+
+}
+
+.fa-phone {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+.fa-at {
+  font-size: 2em;
 }
 
 .links {
   flex: 1;
-  /*border: 1px solid white;*/
+
   margin-left: 10%;
   margin: 10% 10%;
 }
@@ -143,31 +145,25 @@ hr {
   /*color: #27524D;*/
   /*color: #547576;*/
   color: #4c7c7e;
+  min-width: 25%
+  margin-right: 3em;
+
+
 }
 
 .work-description {
-  flex: 1;
+  flex: 3;
+  margin: 3em;
+  margin-top: 0;
+  max-width: 50%
+
+
 }
 
 
 
 
 
-/*
-.photo {
-  flex: 1;
-  background-color: #583f4b;
-}
-
-.columns {
-  flex: 1;
-  display: flex;
-}
-
-#skills-header {
-  display: flex;
-
-}
 
 
 
