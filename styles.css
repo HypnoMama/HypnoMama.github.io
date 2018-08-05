@@ -32,7 +32,7 @@ h2 {
   width: 25%;
 
   padding: 3em;
-  margin-right: 3em;
+  margin-right: 2em;
 
 }
 
@@ -55,6 +55,8 @@ h2 {
   background-color: #d5d2c2;*/
   /*background-color: #D0C9B9*/
   width: 75%;
+  padding: 2em;
+
 }
 
 .skills-header {
@@ -90,6 +92,7 @@ hr {
   display: flex;
   width: 75%;
   margin: 0 auto;
+  padding: 3em;
 
 
 }
