@@ -41,7 +41,13 @@ h2 {
   height: 12em;
   width: 12em;
   border-radius: 50%;
+  display: block;
   margin: 0 auto;
+}
+
+.img {
+  margin: 0 auto;
+  display: block;
 }
 /*
 .project-pics {
