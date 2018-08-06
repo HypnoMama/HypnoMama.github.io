@@ -4,8 +4,6 @@ body {
   background-color: #d5d2c2;
   background-color: #F9F7F7;
   background-color: #ebe8eb;
-  /*margin: 0;*/
-  /*height: 100%;*/
   color: #1B2228;
   color: #332c32;
   padding: 1em;
@@ -14,7 +12,23 @@ body {
 }
 
 h2 {
-  color: #4c7c7e;
+  /*color: #4c7c7e;
+  color: #2CA4AA;
+  color: #2CA4AA;*/
+  color: #034f53;
+}
+
+h3 {
+  color: #2CA4AA;
+}
+
+a {
+  color: #332c32;
+  font-weight: bold;
+}
+
+.education h3 {
+  color: #332c32;
 }
 
 .container {
@@ -23,14 +37,8 @@ h2 {
   height: 100%;
 }
 .sidebar{
-  flex: 0.3;
-  /*background-color: #636267;*/
-  /*background-color: #765464;*/
-  /*background-color: #A4A0B8;*/
-  /*background-color: #d8cbcb;*/
-  background-color: #d8d2cb:;
+  flex: 0.4;
   background-color: #beb3bc;
-  width: 25%;
 
   padding: 3em;
   margin-right: 2em;
@@ -49,19 +57,9 @@ h2 {
   margin: 0 auto;
   display: block;
 }
-/*
-.project-pics {
-  height: 25em;
-  width: 25em;
-  border-radius: none;
-}*/
 
 .main-content {
   flex: 1;
-  /*background-color: #BCB4A7;
-  background-color: #d5d2c2;*/
-  /*background-color: #D0C9B9*/
-  width: 75%;
   padding: 2em;
   padding-top: 0;
 
@@ -69,7 +67,6 @@ h2 {
 
 .skills-header {
   display: flex;
-
 }
 
 hr {
@@ -84,7 +81,6 @@ hr {
 #skills-header {
   flex: 1;
   order:1;
-  /*border: 1px solid black;*/
   width: 10%;
   margin-bottom: 0;
   margin-top: 2em;
@@ -92,74 +88,60 @@ hr {
 
 
 
-.skills {
-  display: flex;
-  width: 75%;
-  margin: 0 auto;
-  /*padding: 3em;*/
-
-
-}
-
-#languages {
-  flex: 1;
-
-  padding-right: 0;
-  width: 25%;
-}
-
-#libraries {
-  flex: 1;
-  margin-right: -10;
-
-  width: 33%;
-
-}
-
-#databases {
-  flex: 1;
-  width: 33%;
-}
-
 li {
   font-size: 1.3em;
 }
 
 .projects {
-  display: flex;
-  /*border: 1px solid black;*/
+  margin-top: 3em;
 }
 
 .fas {
   flex: 1;
   font-size: 1.5em;
+  margin-right: 1em;
 
 }
 
 .fa-phone {
   font-size: 2em;
-  margin-right: 0.5em;
+  margin-right: 0.6em;
 }
 .fa-at {
   font-size: 2em;
+  margin-right: .6em;
+  color: #332c32;
+}
+
+.fab {
+  font-size: 2em;
+  margin-right: 0.75em;
+  margin-bottom: .75em;
+  color: #332c32;
+
 }
 
 .links {
   flex: 1;
+  color: #2CA4AA;
+  font-weight: bold;
+}
 
-  margin-left: 10%;
-  margin: 10% 10%;
+.links-contact {
+  color: #332c32;
 }
 
 #work {
   display: flex;
+  margin-top: 1em;
 }
 
 .title-date {
   flex: 1;
   /*color: #27524D;*/
   /*color: #547576;*/
-  color: #4c7c7e;
+  /*color: #4c7c7e;*/
+  color: #2CA4AA;
   min-width: 25%
   margin-right: 3em;
 
