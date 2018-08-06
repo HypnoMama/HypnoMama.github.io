@@ -176,8 +176,8 @@ li {
     display: flex;
     flex-flow: column;
   }
-  p {
-    font-size: 2em;
+  p{
+    font-size: 100%;
   }
 }
 
