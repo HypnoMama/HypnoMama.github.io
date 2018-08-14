@@ -12,15 +12,12 @@ body {
 }
 
 h2 {
-  /*color: #4c7c7e;
-  color: #2CA4AA;
-  color: #2CA4AA;*/
   color: #034f53;
   margin-top: 0;
 }
 
 h3 {
-  color: #2CA4AA;
+  color: rgb(33, 136, 141);
   font-size: 1.3em;
 }
 
