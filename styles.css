@@ -7,7 +7,6 @@ body {
   color: #1B2228;
   color: #332c32;
   padding: 1em;
-
   display: flex;
 }
 
@@ -82,7 +81,7 @@ hr {
 
 
 
-#skills-header {
+.skills-head {
   flex: 1;
   order:1;
   width: 10%;
@@ -94,7 +93,16 @@ hr {
   flex: 1;
 }
 
+.skills .work h3 {
+  margin: 0;  
+}
 
+.skills.work-description {
+  margin: 0;
+}
+.title-date h3 {
+  padding-top: 1em;
+}
 
 li {
   font-size: 1.3em;
@@ -141,7 +149,7 @@ li {
   color: #332c32;
 }
 
-#work {
+.work {
   display: flex;
   margin-top: 1em;
 }
@@ -151,8 +159,6 @@ li {
   color: #2CA4AA;
   min-width: 25%
   margin-right: 3em;
-
-
 }
 
 .work-description {
@@ -166,8 +172,13 @@ li {
   margin-top: 1.3em;
 }
 
-.project {
+.skills .work {
+  margin: 0;
+  padding: 0;
+}
 
+
+.project-head {
   margin-top: 0;
 }
 
